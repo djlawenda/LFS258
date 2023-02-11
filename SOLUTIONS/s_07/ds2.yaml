@@ -19,7 +19,7 @@ spec:
         system: DaemonSetOne
     spec:
       containers:
-      - image: nginx:1.11.1
+      - image: nginx:1.15.1
         imagePullPolicy: IfNotPresent
         name: nginx
         ports:
